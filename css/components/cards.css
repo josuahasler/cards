@@ -1,0 +1,89 @@
+/* Your card CSS file */
+.container {
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: auto
+}
+
+
+.card-category {
+  background-size: cover;
+  color: white;
+  font-size: x-large;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+
+
+.card-product {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-product img {
+width: 250px;
+object-fit: cover;
+margin-right: 20px;
+}
+
+.card-product h2 {
+margin-top: 60px;
+display: flex;
+align-items: center;
+}
+
+.card-trip{
+  background-size: cover;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  overflow: hidden;
+}
+
+.card-trip >img{
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-trip-text{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip h2 {
+font-size: large;
+margin: 0;
+justify-content: space-between;
+}
+
+.card-trip p {
+  font-size: medium;
+  margin: 0;
+  justify-content: space-between;
+  }
+
+.card-trip-avatar {
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: -30px;
+  width: 60px;
+}
